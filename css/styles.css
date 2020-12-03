@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@700&display=swap');
 body{
   background-image: url("../images/lcd.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat-y;
 }
 .wrapper {
-  background-color: black;
+  background-color: lightgray;
   opacity: 0.9;
   margin-right: auto;
   margin-left:  auto; 
@@ -13,6 +16,10 @@ body{
   padding-right: 10px; 
   padding-left:  10px; 
 }
+.container{
+  display: flex;
+  flex-direction: row;
+}
 h1 {
   font-family: 'Asul', sans-serif;
 }
@@ -20,4 +27,25 @@ h1 {
   color: dodgerblue;
   text-align: center;
   padding: 5px 5px 5px 5px;
+}
+
+.profile-photo{
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: auto;
+}
+.zoom {
+  padding: 0px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: auto;
+  margin: 10px 0px 5px 0px;
+  align-content: flex-start;
+}
+.bio-data{
+  padding: 5px 0 5px 30px;
+}
+.zoom:hover {
+  transform: scale(1.1); 
 }
