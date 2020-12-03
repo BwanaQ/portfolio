@@ -1,4 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@700&display=swap');
+body{
+  background-image: url("../images/lcd.png");
+}
+.wrapper {
+  background-color: black;
+  opacity: 0.9;
+  margin-right: auto;
+  margin-left:  auto; 
+
+  max-width: 960px;
+
+  padding-right: 10px; 
+  padding-left:  10px; 
+}
 h1 {
   font-family: 'Asul', sans-serif;
+}
+.header-text{
+  color: dodgerblue;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
 }
